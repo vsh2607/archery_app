@@ -28,8 +28,8 @@
                     <tr>
                         <td>Permainan #{{ $game->id }}</td>
                         <td>{{ $formattedDate }}</td>
-                        <td>{{ $game->game_player_total }}</td>
                         <td>{{ $game->game_player_session }}</td>
+                        <td>{{ $game->game_player_total }}</td>
                         <td>
                             <a href="/get-game-detail/{{ $game->id }}" class="btn btn-xl btn-success">Lihat Detail</a>
                         </td>
