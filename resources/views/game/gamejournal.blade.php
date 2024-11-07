@@ -4,7 +4,7 @@
     <div class="mt-5"></div>
     <div class="mt-5"></div>
     <div class="container mt-5">
-    
+
         <table id="myJournal" class="table table-striped table-bordered" style="width: 100%">
             <thead class="thead-dark">
                 <tr>
@@ -45,3 +45,4 @@
         <a href="javascript:history.back()" class="btn btn-dark px-5">Kembali</a>
     </div>
 @endsection
+`
